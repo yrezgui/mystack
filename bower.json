@@ -1,0 +1,35 @@
+{
+  "name": "mystack",
+  "version": "0.0.0",
+  "homepage": "https://github.com/yrezgui/mystack",
+  "authors": [
+    "Yacine Rezgui <rezgui.y@gmail.com>"
+  ],
+  "description": "Deploy an app has never been so easy",
+  "main": "www/index.html",
+  "keywords": [
+    "cloud",
+    "deploy",
+    "heroku",
+    "nodejitsu",
+    "paas",
+    "polymer",
+    "pouchdb",
+    "couchdb"
+  ],
+  "license": "Apache Licence v2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.5",
+    "core-elements": "Polymer/core-elements#~0.3.5",
+    "paper-elements": "Polymer/paper-elements#~0.3.5",
+    "polymer-filters": "addyosmani/polymer-filters#~0.0.3"
+  }
+}
